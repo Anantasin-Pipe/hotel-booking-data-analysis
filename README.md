@@ -3,6 +3,8 @@
 ## Azure Stay: High Distribution Costs (Channel Profitability)
 
 การวิเคราะห์เพื่อเพิ่มประสิทธิภาพช่องทางการจัดจำหน่ายและเพิ่มกำไรสุทธิสูงสุดให้กับธุรกิจโรงแรม
+<img width="1030" height="576" alt="image" src="https://github.com/user-attachments/assets/2e0e5703-ae9f-4899-8d61-074e74cc7f1e" />
+
 
 ---
 
@@ -44,10 +46,11 @@
   <img width="784" height="483" alt="image" src="https://github.com/user-attachments/assets/2ef06c78-66c8-4537-adf6-3fe4eb149956" />
 
 
-### 3. Hypothesis 3: วิเคราะห์พฤติกรรมการเข้าพักและผลตอบแทนตามช่วงเวลา
+### 3. Hypothesis 3: การเข้าพักในวันหยุดมากกว่าวันธรรมดา
 * **What to explore:**  ต้องการวิเคราะห์พฤติกรรมการเข้าพักระหว่าง "วันธรรมดา" และ "วันหยุด" ว่ามีความแตกต่างกันอย่างไร ทั้งในปริมาณการจองผ่านแต่ละช่องทาง และความสามารถในการทำกำไรต่อห้อง เพื่อใช้เป็นแนวทางในแบ่งกลุ่มลูกค้า
 * **Why this chart is appropriate:** ใช้ Bar Chart 2 กราฟควบคู่กัน โดยกราฟแรกแสดงระดับความเสี่ยง และกราฟที่สองแสดงผลกระทบทางธุรกิจ ทำให้สามารถวิเคราะห์ได้ทั้งเชิงสัดส่วนและมูลค่าพร้อมกันอย่างครบถ้วน 
-<img width="1783" height="584" alt="Hypothesis 3 Weekend vs Weekday Performance" src="https://github.com/user-attachments/assets/b4877af3-557c-4610-8fe0-07c7c2abcb68" />
+<img width="984" height="584" alt="image" src="https://github.com/user-attachments/assets/3e1125e7-d5eb-4541-aca8-1807e3ae1697" />
+
 
 ---
 
@@ -134,7 +137,7 @@
 
 ### 4. Final Net Profit by Channel (After ALL Costs)
 * **เป้าหมาย:** วิเคราะห์หาผลกำไรสุทธิที่แท้จริง (Final Net Profit) ของแต่ละช่องทาง หลังจากนำรายได้มาหักลบด้วยต้นทุนแฝงทั้งหมด (Commission + Marketing) แล้ว
-* **ผลวิเคราะห์เบื้องต้น:** ระบุ "ผู้ชนะ" ในเชิงกำไรสุทธิรวม พบว่า Booking.com ทำกำไรสูงสุดให้โรงแรมที่ 651,325 บาท ตามมาด้วย Expedia (545,880 บาท) และ Direct Web (485,577 บาท)
+* **ผลวิเคราะห์เบื้องต้น:** ระบุช่องทางที่ได้กำไรมากที่สุด พบว่า Booking.com ทำกำไรสูงสุดให้โรงแรมที่ 651,325 บาท ตามมาด้วย Expedia (545,880 บาท) และ Direct Web (485,577 บาท)
 * **การนำเสนอ:** ใช้ Bar Chart แบบเรียงลำดับ (Sorted) เพื่อชี้เป้าช่องทางที่ทำกำไรได้ดีที่สุดไปจนถึงน้อยที่สุด ช่วยให้ผู้บริหารตัดสินใจจัดสรรงบประมาณได้อย่างแม่นยำ
 <img width="1184" height="684" alt="image" src="https://github.com/user-attachments/assets/91dcf2d1-5458-47bd-832c-0377ba32b768" />
 
@@ -145,7 +148,6 @@
 ### Insight 1: The Profit Gap (ยอดขายรวม vs กำไรที่แท้จริง)
 * **ปัญหา:** หลังจากนำรายได้มาหักลบต้นทุนแฝงทั้งหมด (Commission ของ OTA และ Marketing ของ Direct Web) พบว่าแม้ Direct Web จะไม่เสียค่าคอมมิชชัน แต่ต้นทุนการตลาดที่สูงมากทำให้กำไรสุทธิ (Net Profit) ลดลงอย่างมีนัยสำคัญ เมื่อเทียบกับยอดขายรวม (Gross Revenue)
 * **Recommendation:**
-  * **Audit Marketing Efficiency:** ตรวจสอบประสิทธิภาพการยิงโฆษณาของ Direct Web ทันที เนื่องจากค่าใช้จ่ายสูงแต่ Conversion อาจไม่คุ้มค่า เพื่อลดงบประมาณที่สูญเปล่า
   * **Convert OTA to Direct Loyalty:** นำเสนอสิทธิพิเศษ (In-stay incentives) ให้แก่ลูกค้าที่จองผ่าน OTA เมื่อมาเช็คอิน เพื่อดึงเข้าสู่ระบบสมาชิก (Loyalty Program) หวังผลให้เกิดการจองตรงในครั้งถัดไป
 * **Impact:** ลดต้นทุนการหาลูกค้า (CAC) ในระยะยาว และเพิ่มอัตรากำไรสุทธิจากการจองโดยตรงที่ไม่มีทั้งค่าคอมมิชชันและค่าแอด
 <img width="1184" height="683" alt="image" src="https://github.com/user-attachments/assets/e361fb52-3545-449c-b615-1f110330c37e" />
@@ -161,3 +163,17 @@
 * **Recommendation:** ผลักดันแคมเปญ "Book Direct & Get More" เพื่อจูงใจลูกค้าที่มีความตั้งใจพักจริง (High-intent customers) เช่น มอบสิทธิ Early Check-in หรือ Food Credit และควรพิจารณาเรียกเก็บเงินมัดจำในทุกช่องทางเพื่อลดความเสี่ยงจากการยกเลิกกะทันหัน
 * **Impact:** เพิ่มอัตราการเข้าพักจริง (Occupancy Rate) ลดปัญหาห้องว่างกะทันหัน และลดภาระค่าคอมมิชชันสะสมจาก OTA ส่งผลให้ธุรกิจเติบโตอย่างยั่งยืน
 <img width="1181" height="683" alt="image" src="https://github.com/user-attachments/assets/ac994764-ec5a-4e7f-a1ec-69961ac706f0" />
+
+### Insight 4: Commission vs. Marketing Cost Per Checked-Out Booking (ค่าใช้จ่ายของ Marketing และ Commission ต่อการเข้าพัก)
+* **ปัญหา:** ต้องการดูคุณภาพของการทำ Marketing เมื่อเทียบกับที่ต้องเสียค่า Commission ให้กับ OTA
+* **Recommendation:** ควรวิเคราะห์ฐานลูกค้าหลัก เพื่อทำโฆษณาแบบเจาะจงเป้าหมาย แทนการยิงแอดแบบกว้างๆ เพื่อเพิ่มประสิทธิภาพ Content และลดงบการตลาดที่สูญเปล่าช่วยเพิ่มอัตราการคลิกและลดงบประมาณการตลาดที่ไม่จำเป็นลง
+* **Impact:** ลดต้นทุนการจัดจำหน่าย ดันยอดจองจากช่องทางที่คุ้มค่าส่งผลให้กำไรสุทธิเติบโตขึ้น
+<img width="1873" height="805" alt="image" src="https://github.com/user-attachments/assets/c859c368-5fd0-44d5-9b4d-7552d56a6eba" />
+
+---
+
+## Presentation Files
+- [Presentation (PDF)](present/azurestay_high_distribution_costs.pdf)
+- [Presentation (Link)](https://canva.link/1w2ql0p8tkfg3ql)
+- [Video Presentation (Link)] ()
+- 
